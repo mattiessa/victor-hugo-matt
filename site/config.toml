@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "hello my slides"
 theme = "webslides"
 
 # RSS, categories and tags disabled for an easy start
