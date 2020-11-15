@@ -1,8 +1,34 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "hello my slides"
-theme = "webslides"
+#baseurl = "/"
+#languageCode = "en-us"
+#languageLang = "en"
+#title = "hello my slides"
+#theme = "webslides"
+
+
+baseurl         = "/"
+theme           = "webslides"
+languageCode    = "en-us"
+title           = "A Hugo theme for creating Webslides.js presentations"
+
+[params]
+  author = "RCJacH"
+  homepage = "RCJacH.github.io"
+
+[params.webslides]
+  banner = false
+  slideshow = true
+  vertical = false
+  autoslide = false
+  changeOnClick = false
+  disableLoop = false
+  minWheelDelta = 40
+  disableNavigateOnScroll = false
+  scrollWait = 450
+  slideOffset = 50
+  hideIndex = false
+
+[blackfriday]
+extensionsmask = ["autoHeaderIds"]
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
